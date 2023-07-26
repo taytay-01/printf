@@ -120,16 +120,9 @@ extra_ch = '+';
 else if (flags & F_SPACE)
 
 extra_ch = ' ';
-
-
-
-return (write_num(ind, buffer, flags, width, precision,
-
-length, padd, extra_ch));
-
+return (write_num(ind, buffer, flags, width, precision, length, padd, extra_ch));
 }
- 
- /**
+/**
  * write_num - Write a number using a bufffer
  * @ind: Index at which the number starts on the buffer
  * @buffer: Buffer
